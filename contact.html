@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Komorebi</title>
+  <link rel="stylesheet" href="contact.css">
+  
+</head>
+
+<body>
+    
+<!-- javascript読み込み -->
+  <script src="script.js"></script>
+  
+    <div id="container">
+        <!-- ヘッダー -->
+        <header class="header">
+        <img id="header-logo" src="img/logo.jpg" alt="ロゴ">
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#access">Access</a></li>
+                </ul>
+            </nav>
+            <!-- ハンバーガーメニュー -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+            <div class="menu-slide-right" id="hamburger-menu">
+                <a href="index.html#about" class="menu-item">
+                <span class="text">About</span></a>
+                <a href="index.html#menu" class="menu-item">
+                <span class="text">Menu</span></a>
+                <a href="index.html#access" class="menu-item">
+                <span class="text">Access</span></a>
+            </div>
+        </header>
+
+        <section>
+            <div class="green"></div>
+            <div class="pink"></div>
+
+            <h2><span class="h2-bg">&thinsp;お問い合わせ&thinsp;</span></h2>
+            
+            <div class="bg-img">
+            <div class="sheet">
+            <div class="contact-form">
+            <form action="" method="post">
+                <div class="form-items">
+                    <div class="contact"> 
+                    <label for="fullname">お名前</label>
+                    </div>
+                    <input type="text" id="fullname" name="user-fullname" >
+                </div>
+                <div class="form-items">
+                    <div class="contact"> 
+                    <label for="mail">メールアドレス</label>
+                    </div>
+                    <input type="email" id="mail" name="user-mail" >
+                </div>
+                <div class="form-items">  
+                    <div class="contact"> 
+                    <label for="msg">お問い合わせ内容</label>
+                    </div>
+                    <textarea id="msg" name="user_message" ></textarea>
+                </div> 
+                <div class="form-items">
+                    <input type="submit" id="button" name="button" value="送信">
+                </div>
+            </form>
+            </div>
+            </div>
+            </div>
+            
+
+            <footer id="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                    <img src="img/logo.jpg" alt="ロゴ">
+                    </div>
+                    <div class="footer-nav">
+                        <nav>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#access">Access</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="instagram">
+                        <img src="img/Instagram-icon.png" alt="インスタグラムロゴ">
+                    </div>
+                </div>
+                <small id="copy">&copy; 2025 Cafe Komorebi. All Rights Reserved.</small>
+            </footer>
+        </section>
+    </div>
+
+
+</body>
+</html>

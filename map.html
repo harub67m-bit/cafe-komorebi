@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Komorebi</title>
+  <link rel="stylesheet" href="mapstyle.css">
+  
+</head>
+
+<body>
+    
+<!-- javascript読み込み -->
+  <script src="script.js"></script>
+  
+    <div id="container">
+        <!-- ヘッダー -->
+        <header class="header">
+        <img id="header-logo" src="img/logo.jpg" alt="ロゴ">
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#access">Access</a></li>
+                </ul>
+            </nav>
+            <!-- ハンバーガーメニュー -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+            <div class="menu-slide-right" id="hamburger-menu">
+                <a href="index.html#about" class="menu-item">
+                <span class="text">About</span></a>
+                <a href="index.html#menu" class="menu-item">
+                <span class="text">Menu</span></a>
+                <a href="index.html#access" class="menu-item">
+                <span class="text">Access</span></a>
+            </div>
+        </header>
+
+            <div class="green"></div>
+            <div class="pink"></div>
+
+            <section id="access" >
+                <h2><span class="h2-bg">&thinsp;Access&thinsp;</span><br class="res1-br"><span class="pc-space"></span>〇〇駅から徒歩5分。<span class="access-h2-hide-res1">静かに過ごせるカフェ</span><span class="access-h2-hide-res2">「Komorebi」へのアクセス</span></h2>
+
+                <div id="google-map">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6481.634630564722!2d139.76033806529458!3d35.68149998989087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf97912d02d%3A0xee1220ee8337117!2z44CSMTAwLTAwMDUg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Li444Gu5YaF77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1744978731662!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+
+                 <div id="google-map-res2">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6481.634630564722!2d139.76033806529458!3d35.68149998989087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf97912d02d%3A0xee1220ee8337117!2z44CSMTAwLTAwMDUg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Li444Gu5YaF77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1744978731662!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+            </section>
+
+            <footer id="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                    <img src="img/logo.jpg" alt="ロゴ">
+                    </div>
+                    <div class="footer-nav">
+                        <nav>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#access">Access</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="instagram">
+                        <img src="img/Instagram-icon.png" alt="インスタグラムロゴ">
+                    </div>
+                </div>
+                <small id="copy">&copy; 2025 Cafe Komorebi. All Rights Reserved.</small>
+            </footer>
+    </div>
+
+
+</body>
+</html>

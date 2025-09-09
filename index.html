@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Komorebi</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- javascript読み込み -->
+  <script src="script.js"></script>
+  
+    <div id="container">
+        <!-- ヘッダー -->
+        <header class="header">
+        <img id="header-logo" src="img/logo.jpg" alt="ロゴ">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#access">Access</a></li>
+                </ul>
+            </nav>
+            <!-- ハンバーガーメニュー -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+            <div class="menu-slide-right" id="hamburger-menu">
+                <a href="#about" class="menu-item">
+                <span class="text">About</span></a>
+                <a href="#menu" class="menu-item">
+                <span class="text">Menu</span></a>
+                <a href="#access" class="menu-item">
+                <span class="text">Access</span></a>
+            </div>
+        </header>
+
+        <!-- メインビジュアル -->
+        <main id="main">
+            <h1 class="h1-one"><span class="h1-space"></span>東京で緑に癒されるカフェ<br class="res2-br"><span id="komorebi"><span class="komorebi-space"></span>「Komorebi」</span></h1><br>
+            <h1 class="h1-two"><span class="h1-space"></span>心休まる<span class="access-h2-hide-res2">落ち着いた</span>時間をここで。</h1>
+        </main>
+      
+        <!-- About -->
+        <section id="about">
+            <h2><span class="h2-bg">&thinsp;About&thinsp;</span><br class="res1-br"><span class="pc-space"></span>都会の喧騒を忘れる<br class="res2-br"><span class="about-h2-hide">、観葉植物に囲まれた</span>癒しのカフェ空間</h2>
+
+            <div class="pc-about-items">
+                    <div class="item">
+                        <img class="about-image" src="img/about1.jpg" alt="店内の写真">
+                        <h3>心落ち着く店内空間</h3>
+                        <p>自然に包まれた店内で、<br>心ほどける時間をどうぞ。</p>
+                    </div>
+                    <div class="item">
+                        <img class="about-image" src="img/about2.jpg" alt="コーヒー豆">
+                        <h3>コーヒーへのこだわり</h3>
+                        <p>世界各地から選び抜いた豆を、<br>丁寧に焙煎。</p>
+                    </div>
+                    <div class="item">
+                        <img class="about-image" src="img/about3.jpg" alt="ハンドドリップ">
+                        <h3>一杯ずつハンドドリップ</h3>
+                        <p>丁寧にハンドドリップし、<br>香り高く仕上げました。</p>
+                    </div>
+                    <div class="item">
+                        <img class="about-image" src="img/about4.jpg" alt="手作りスイーツ">
+                        <h3>手作りのスイーツ</h3>
+                        <p>店内で焼き上げた<br>優しい甘さの手作りスイーツ。</p>
+                    </div>
+            </div>
+
+            <div class="res1-about-items">
+                <div class="item-1">
+                    <div class="item">
+                        <img class="about-image" src="img/about1.jpg" alt="店内の写真">
+                        <h3>心落ち着く店内空間</h3>
+                        <p>自然に包まれた店内で、<br>心ほどける時間をどうぞ。</p>
+                    </div>
+                    <div class="item">
+                        <img class="about-image" src="img/about2.jpg" alt="コーヒー豆">
+                        <h3>コーヒーへのこだわり</h3>
+                        <p>世界各地から選び抜いた豆を、<br>丁寧に焙煎。</p>
+                    </div>
+                </div>
+                <div class="item-2">
+                    <div class="item">
+                        <img class="about-image" src="img/about3.jpg" alt="ハンドドリップ">
+                        <h3>一杯ずつハンドドリップ</h3>
+                        <p>丁寧にハンドドリップし、<br>香り高く仕上げました。</p>
+                    </div>
+                    <div class="item">
+                        <img class="about-image" src="img/about4.jpg" alt="手作りスイーツ">
+                        <h3>手作りのスイーツ</h3>
+                        <p>店内で焼き上げた<br>優しい甘さの手作りスイーツ。</p>
+                    </div>
+                </div>    
+            </div>
+
+        </section>
+
+        <!-- Menu -->
+        <section id="menu">
+            <h2><span class="h2-bg">&thinsp;Menu&thinsp;</span><br class="res1-br"><span class="pc-space"></span>こだわりのハンドドリップコーヒーと<br class="res2-br">手作りスイーツ</h2>
+
+            <div class="menu-category" id="bc-green">
+                <div class="menu-text">
+                    <h3 id="drink">DRINK</h3>
+                    <ul>
+                        <li>こもれびブレンドコーヒー ········· ¥580</li>
+                        <li>カフェラテ（アイス/ホット） ······¥620</li>
+                        <li>季節のハーブティー ···················¥650</li>
+                        <li>自家製ジンジャーソーダ ·············¥600</li>
+                        <li>ほっとココア ··························· ¥550</li>
+                    </ul>
+                </div>
+
+                <div class="menu-images">
+                    <div class="menu-photo">
+                        <img src="img/drink1.jpg" alt="ブレンドコーヒー">
+                        <p>香りと味にこだわった<br>こもれびブレンドコーヒー</p>
+                    </div>
+                    <div class="menu-photo">
+                        <img src="img/drink2.jpg" alt="ハーブティー">
+                        <p>旬のハーブをブレンド<br>季節のハーブティー</p>
+                    </div>            
+                    <div class="menu-photo">
+                        <img src="img/drink3.jpg" alt="ココア">
+                        <p>やさしい甘さに包まれる<br>ほっとココア</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="bc-pink">
+                <div class="menu-text">
+                    <h3>SWEETS</h3>
+                    <ul>
+                        <li>抹茶ケーキ ······························ ¥500</li>
+                        <li>季節のフルーツケーキ ··············· ¥550</li>
+                        <li>特製ショコラケーキ ·················· ¥600</li>
+                    </ul>
+                </div>
+
+                <div class="menu-images">
+                    <div class="menu-photo">
+                        <img src="img/sweets1.jpg" alt="抹茶ケーキ">
+                        <P>上品な抹茶の風味<br>抹茶ケーキ </P>
+                    </div>
+                    <div class="menu-photo">
+                        <img src="img/sweets2.jpg" alt="フルーツケーキ">
+                        <p>人気の手作りスイーツ<br>季節のフルーツケーキ </p>
+                    </div>
+                    <div class="menu-photo">
+                        <img src="img/sweets3.jpg" alt="ショコラケーキ">
+                        <p>カカオにこだわった<br>特製ショコラケーキ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Access -->
+        <section id="access" >
+            <h2><span class="h2-bg">&thinsp;Access&thinsp;</span><br class="res1-br"><span class="pc-space"></span>〇〇駅から徒歩5分。<span class="access-h2-hide-res1">静かに過ごせるカフェ</span><span class="access-h2-hide-res2">「Komorebi」へのアクセス</span></h2>
+            <div class="access-content">
+                <img src="img/exterior.jpg" alt="店舗外観">
+                <div class="access-info">
+                    <dl>
+                        <div id="info1">
+                            <dt>店舗名</dt><dd>cafe Komorebi</dd>
+                        </div>
+                        <div id="info2">
+                            <dt>住所</dt><dd>〒123-4567<br> 東京都〇〇区〇〇1-2-3<br class="res-br">カフェこもれびビル1F</dd>
+                        </div>
+                        <div id="info3">
+                            <dt>電話番号</dt><dd>03-1234-5678</dd>
+                        </div>
+                        <div id="info4">
+                            <dt>営業時間</dt><dd>10:00～19:00（L.O. 18:30）</dd>
+                        </div>
+                        <div id="info5">
+                            <dt>定休日</dt><dd>毎週水曜日</dd>
+                        </div>
+                    </dl>
+                    <div id="btn">
+                        <a href="map.html" id="btn1"><div id="btn1-text">&blacktriangleright;Google Mapで見る</div></a>
+                        <a href="contact.html" id="btn2"><div id="btn2-text">&blacktriangleright;お問い合わせ</div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- フッター -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                <img src="img/logo.jpg" alt="ロゴ">
+                </div>
+                <div class="footer-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#access">Access</a></li>
+                    </ul>
+                </nav>
+                </div>
+                <div class="instagram">
+                <img src="img/Instagram-icon.png" alt="インスタグラムロゴ">
+                </div>
+            </div>
+            <small id="copy">&copy; 2025 Cafe Komorebi. All Rights Reserved.</small>
+        </footer>
+    </div>
+
+</body>
+</html> 
