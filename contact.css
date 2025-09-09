@@ -110,7 +110,7 @@ h2 {
 .bg-img {
     width: 100%;
     height: auto;
-    background-image: url(img/main.png);
+    background-image: url(main.png);
     background-size: cover;
     background-repeat: no-repeat;
 
